@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="710.0" prefWidth="1175.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.NovaViagemController">
+  <children>
+      <AnchorPane prefHeight="734.0" prefWidth="1246.0">
+         <children>
+            <AnchorPane prefHeight="40.0" prefWidth="1182.0">
+               <children>
+                  <Label id="nometelaatual" fx:id="nometelaatual" layoutX="536.0" layoutY="10.0" prefHeight="20.0" prefWidth="111.0" text="Nova Viagem" textAlignment="CENTER" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="536.0" AnchorPane.topAnchor="10.0">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ComboBox fx:id="origemCB" layoutX="279.0" layoutY="210.0" onMouseClicked="#forneceOrigem" prefHeight="34.0" prefWidth="435.0" />
+            <ComboBox fx:id="veiculoModeloCB" layoutX="279.0" layoutY="310.0" onMouseClicked="#forneceModeloVeiculo" prefHeight="34.0" prefWidth="435.0" />
+            <ComboBox fx:id="veiculoPlacaCB" layoutX="279.0" layoutY="362.0" onMouseClicked="#fornecePlacaVeiculo" prefHeight="34.0" prefWidth="435.0" />
+            <Label fx:id="pessoaL" layoutX="86.0" layoutY="96.0" prefHeight="34.0" prefWidth="124.0" text="Nome da pessoa" />
+            <Label fx:id="origemL" layoutX="85.0" layoutY="210.0" prefHeight="34.0" prefWidth="124.0" text="Lugar origem" />
+            <Label fx:id="destinoL" layoutX="85.0" layoutY="261.0" prefHeight="34.0" prefWidth="124.0" text="Lugar destino" />
+            <Label fx:id="veiculoL" layoutX="85.0" layoutY="310.0" prefHeight="34.0" prefWidth="124.0" text="Modelo do veiculo" />
+            <Button fx:id="novaPessoaBT" layoutX="759.0" layoutY="130.0" mnemonicParsing="false" onMouseClicked="#addPessoa" prefHeight="34.0" prefWidth="242.0" text="Adicionar nova pessoa" />
+            <Button fx:id="novoLugarBT" layoutX="759.0" layoutY="227.0" mnemonicParsing="false" onMouseClicked="#addLugar" prefHeight="34.0" prefWidth="242.0" text="Adicionar novo lugar" />
+            <Button fx:id="novoVeiculoBT" layoutX="759.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#addVeiculo" prefHeight="34.0" prefWidth="242.0" text="Adicionar novo veiculo" />
+            <Button fx:id="salvarViagemBT" layoutX="507.0" layoutY="588.0" mnemonicParsing="false" onMouseClicked="#salvarViagem" prefHeight="70.0" prefWidth="169.0" text="Salvar Viagem" />
+            <Label fx:id="pessoaL1" layoutX="85.0" layoutY="155.0" prefHeight="34.0" prefWidth="124.0" text="CPF da pessoa" />
+            <Label fx:id="veiculoL1" layoutX="85.0" layoutY="362.0" prefHeight="34.0" prefWidth="124.0" text="Placa do veiculo" />
+            <Label fx:id="veiculoL11" layoutX="676.0" layoutY="471.0" prefHeight="34.0" prefWidth="124.0" text="Data de partida" />
+            <Label fx:id="veiculoL12" layoutX="95.0" layoutY="471.0" prefHeight="34.0" prefWidth="124.0" text="Data de chegada" />
+            <ComboBox fx:id="destinoCB" layoutX="279.0" layoutY="261.0" onMouseClicked="#forneceDestino" prefHeight="34.0" prefWidth="435.0" />
+            <ComboBox fx:id="pessoaCpfCB" layoutX="279.0" layoutY="155.0" onMouseClicked="#forneceCpfPessoa" prefHeight="34.0" prefWidth="435.0" />
+            <ComboBox fx:id="pessoaNomeCB" layoutX="279.0" layoutY="96.0" onMouseClicked="#forneceNomePessoa" prefHeight="34.0" prefWidth="435.0" />
+            <DatePicker id="dataInicio" fx:id="dataPartida" layoutX="850.0" layoutY="473.0" prefHeight="30.0" prefWidth="155.0" />
+            <DatePicker id="dataInicio" fx:id="dataChegada" layoutX="269.0" layoutY="473.0" prefHeight="30.0" prefWidth="155.0" />
+            <Button fx:id="voltarBT" layoutX="14.0" layoutY="658.0" mnemonicParsing="false" onMouseClicked="#voltar" prefHeight="30.0" prefWidth="89.0" text="Voltar" />
+            <Button fx:id="verViagens" layoutX="1044.0" layoutY="658.0" mnemonicParsing="false" onMouseClicked="#VerViagens" prefHeight="30.0" prefWidth="124.0" text="Ver viagens" />
+         </children>
+      </AnchorPane>
+  </children>
+</VBox>

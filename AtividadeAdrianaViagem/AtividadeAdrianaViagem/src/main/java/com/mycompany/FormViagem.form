@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Viagem"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="32" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="destinoJL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="modeloVeiculoJL" min="-2" max="-2" attributes="0"/>
+                          <Component id="placaVeiculoJL" min="-2" max="-2" attributes="0"/>
+                          <Component id="partidaJL" min="-2" max="-2" attributes="0"/>
+                          <Component id="chegadaJL" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="partidaTF" alignment="0" max="32767" attributes="0"/>
+                          <Component id="destinoTF" max="32767" attributes="0"/>
+                          <Component id="modeloVeiculoTF" alignment="1" max="32767" attributes="0"/>
+                          <Component id="placaVeiculoTF" alignment="1" max="32767" attributes="0"/>
+                          <Component id="chegadaTF" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="origemJL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="pessoaJL" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="pessoaTF" max="32767" attributes="0"/>
+                          <Component id="origemTF" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="334" max="-2" attributes="0"/>
+              <Component id="salvarBT" min="-2" pref="108" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+              <Component id="exibirBT" min="-2" pref="102" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="286" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="retornoChegadaJL" max="32767" attributes="0"/>
+                  <Component id="retornoPartidaJL" max="32767" attributes="0"/>
+                  <Component id="retornoPlacaJL" alignment="0" max="32767" attributes="0"/>
+                  <Component id="retornoModeloJL" alignment="0" max="32767" attributes="0"/>
+                  <Component id="retornoDestinoJL" alignment="0" max="32767" attributes="0"/>
+                  <Component id="retornoOrigemJL" alignment="0" max="32767" attributes="0"/>
+                  <Component id="retornoPessoaJL" alignment="0" min="-2" pref="403" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="287" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pessoaJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pessoaTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                      <Component id="origemJL" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="origemTF" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="destinoTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="destinoJL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="modeloVeiculoTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="modeloVeiculoJL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="placaVeiculoTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="placaVeiculoJL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="partidaTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="partidaJL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="chegadaTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="chegadaJL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="167" max="32767" attributes="0"/>
+              <Component id="retornoPessoaJL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="retornoOrigemJL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="retornoDestinoJL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="retornoModeloJL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="retornoPlacaJL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="retornoPartidaJL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="retornoChegadaJL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="exibirBT" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="salvarBT" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="pessoaJL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Liberation Sans" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Pessoa: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="origemJL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Liberation Sans" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Origem:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="destinoJL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Liberation Sans" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Destino:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="modeloVeiculoJL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Liberation Sans" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Modelo do ve&#xed;culo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="partidaJL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Liberation Sans" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Partida"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="chegadaJL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Liberation Sans" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Chegada:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="pessoaTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="origemTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="destinoTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="modeloVeiculoTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="partidaTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="chegadaTF">
+    </Component>
+    <Component class="javax.swing.JButton" name="salvarBT">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Liberation Sans" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Salvar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="salvarBTActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="exibirBT">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Liberation Sans" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Exibir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exibirBTActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="placaVeiculoJL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Liberation Sans" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Placa do ve&#xed;culo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="placaVeiculoTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="retornoPessoaJL">
+    </Component>
+    <Component class="javax.swing.JLabel" name="retornoOrigemJL">
+    </Component>
+    <Component class="javax.swing.JLabel" name="retornoDestinoJL">
+    </Component>
+    <Component class="javax.swing.JLabel" name="retornoModeloJL">
+    </Component>
+    <Component class="javax.swing.JLabel" name="retornoPlacaJL">
+    </Component>
+    <Component class="javax.swing.JLabel" name="retornoPartidaJL">
+    </Component>
+    <Component class="javax.swing.JLabel" name="retornoChegadaJL">
+    </Component>
+  </SubComponents>
+</Form>

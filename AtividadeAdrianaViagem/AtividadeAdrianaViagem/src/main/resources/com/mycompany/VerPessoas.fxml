@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="734.0" prefWidth="1178.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.VerPessoasController">
+  <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="715.0" prefWidth="1124.0" VBox.vgrow="ALWAYS">
+         <children>
+            <AnchorPane layoutX="-1.0" layoutY="6.0" prefHeight="40.0" prefWidth="1179.0">
+               <children>
+                  <Label id="nometelaatual" fx:id="nometelaatual" alignment="CENTER" contentDisplay="CENTER" layoutX="557.0" layoutY="10.0" prefHeight="20.0" prefWidth="65.0" text="Pessoas" textAlignment="CENTER" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="557.0" AnchorPane.topAnchor="10.0">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <TableView id="tabelaLancamento" fx:id="tabelaPessoas" layoutX="144.0" layoutY="84.0" prefHeight="481.0" prefWidth="890.0">
+               <columns>
+                  <TableColumn id="tabelaN" fx:id="tabelaNome" maxWidth="350.0" minWidth="30.0" prefWidth="312.0" text="Nome" />
+                  <TableColumn id="tabelaTipo" fx:id="tabelaCpf" maxWidth="616.0" minWidth="-Infinity" prefWidth="261.0" text="CPF" />
+                  <TableColumn id="tabelaInicio" fx:id="tabelaIdade" maxWidth="1750.0" minWidth="137.0" prefWidth="316.0" text="Idade" />
+               </columns>
+            </TableView>
+            <Button fx:id="voltarBT" layoutX="14.0" layoutY="690.0" mnemonicParsing="false" onMouseClicked="#voltar" prefHeight="30.0" prefWidth="89.0" text="Voltar" />
+         </children>
+      </AnchorPane>
+  </children>
+</VBox>
